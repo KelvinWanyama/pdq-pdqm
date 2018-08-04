@@ -1,0 +1,12 @@
+plugins {
+    id "java-library"
+}
+
+version = "0.0.1"
+group = "org.jembi"
+sourceCompatibility = 1.8
+archivesBaseName = "pdq-pdqm"
+
+dependencies {
+    compile "ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:3.4.0"
+}
